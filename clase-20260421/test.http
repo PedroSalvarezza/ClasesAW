@@ -1,11 +1,10 @@
 ###
-get http://localhost:3000
+POST http://localhost:3000/productos
+Content-Type: application/json
 
-###
-get http://localhost:3000/saludo
+{
+    "id" : 3,
+    "nombre" : "Gorra",
+    "precio" : 50000
+}
 
-###
-POST http://localhost:3000
-
-###
-POST http://localhost:3000/saludo
