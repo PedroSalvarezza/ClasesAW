@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - SUBIR ARCHIVO CON MULTER</title>
+</head>
+<body>
+    <!-- si no ponemos el dominio, el navegador asume que es el mismo desde donde se sirve la web -->
+    <form action="/api/v1/productos" method="post" enctype="multipart/form-data">
+        <input type="text" name="producto" id="">
+        <input type="text" name="precio" id="">
+        <input type="file" name="archivo" id="archivo">
+        <button type="submit">Subir</button>
+    </form>
+</body>
+</html>
